@@ -1,0 +1,4 @@
+@EndUserText.label: 'Definición de servicio 10'
+define service ZAEB_SERVDEF_EXAMPLE10 {
+  expose ZAEB_CDS_EXAMPLE10;
+}
