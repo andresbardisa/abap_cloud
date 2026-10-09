@@ -8,7 +8,7 @@ CLASS zaeb_cl_first_program DEFINITION
     INTERFACES if_oo_adt_classrun .
   PROTECTED SECTION.
   PRIVATE SECTION.
-ENDCLASS.
+ENDCLASS. "
 
 
 
@@ -17,7 +17,7 @@ CLASS zaeb_cl_first_program IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
 
-   out->write( 'First program' ).
+   out->write( 'First program2' ).
 
 *   call FUNCTIOn '/DMO/FLIGHT_TRAVEL_UPDATE'
 
